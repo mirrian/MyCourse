@@ -1,7 +1,25 @@
 - Class: meta
-  Course: MyCourse
+  Course: My Course
   Lesson: R_basic
   Author: your name goes here
   Type: Standard
   Organization: your organization's name goes here
   Version: 2.2.21
+
+- Class: text
+  Output: "在這一小節裡，我們會簡單的介紹一些 R 中的常用函數。"
+
+- Class: text
+  Output: "首先是 ? 跟 ??"
+  
+- Class: text
+  Output: "? 跟 ?? 可以用來查詢 R 中各種函數的使用說明。"
+
+- Class: cmd_question
+  Output: "舉例來說，鍵入 ?sqrt 可以查詢 sqrt 這個內建函數的功能。試試看吧!"
+  CorrectAnswer: "?sqrt"
+  AnswerTests: omnitest("?sqrt")
+  Hint: "請輸入 ?sqrt 。"
+
+- Class: text
+  Output: "如何? 應該知道 sqrt 這個函數的功能與使用方式了吧!"
